@@ -52,7 +52,7 @@ spring:
 
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.66.4:3306/webdb?charset=utf8
+      url: jdbc:mariadb://192.168.0.30:3306/webdb?charset=utf8
       username: webdb
       password: webdb
       hikari:
@@ -60,7 +60,7 @@ spring:
          maximum-pool-size: 20
 
 server:
-   port: 8080
+   port: 8081
     
 logging:
    pattern:
@@ -80,7 +80,7 @@ spring:
       cache: true
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.66.4:3306/webdb?charset=utf8
+      url: jdbc:mariadb://192.168.0.30:3306/webdb?charset=utf8
       username: webdb
       password: webdb
       hikari:

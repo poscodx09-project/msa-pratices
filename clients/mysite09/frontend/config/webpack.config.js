@@ -47,7 +47,7 @@ module.exports = function(env) {
             hot: false,
             proxy: [{
                 context: ['/api', '/assets/gallery'],
-                target: 'http://localhost:8080',
+                target: 'http://localhost:8081',
             }],            
             static: {
                 directory: path.resolve('./public')
